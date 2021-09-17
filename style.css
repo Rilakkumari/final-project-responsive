@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #6c63ff;
+  --primary-color: #353974b2;
   --secondary-color: #f5f2fe;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
@@ -170,6 +170,6 @@ margin-top: 40px;
   
 }
 .fab{
-  color: #6c63ff;
+  color: var(--primary-color);
   text-decoration: none;
 }

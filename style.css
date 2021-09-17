@@ -130,10 +130,35 @@ margin-top: 40px;
   padding: 20px 15px;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom:50px;
+}
+
+.fab{
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.me-image{
+  width: 70%;
+
+}
+.picture-col{
+  text-align: right;
+}
+
+
 @media (max-width: 770px) {
   img {
-    display: none;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
   }
+
   .mt-5,
   .mb-3,
   .text-window {
@@ -159,17 +184,4 @@ margin-top: 40px;
   .email-link {
     font-size: 18px;
   }
-}
-.social-media {
-  display: flex;
-  justify-content: space-evenly;
-  font-size: 40px;
-  margin-top: 50px;
-  margin-bottom:50px;
-
-  
-}
-.fab{
-  color: var(--primary-color);
-  text-decoration: none;
 }
